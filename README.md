@@ -38,7 +38,7 @@ Student mental health is a global crisis, with factors like academic pressure, s
 - Data Source: CSV dataset with features like Age, GPA, Sleep Duration, Stress Levels, Coping Mechanisms.
 
 ## Setup & Installation
-1. Clone the Repository: git clone https://github.com/komal270302/Student-Mental-Stress-Analysis-Insights-into-Factors-and-Coping-Mechanisms.git
+1. Clone the Repository: git clone https://github.com/komal270302/Student-Mental-Stress-Analysis-Insights-into-Factors-and-Coping-Mechanisms.git, 
                          cd Student-Mental-Stress-Analysis-Insights-into-Factors-and-Coping-Mechanisms
 
 2. Install Dependencies: pip install pandas
