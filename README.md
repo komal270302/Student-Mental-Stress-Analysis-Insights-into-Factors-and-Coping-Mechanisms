@@ -64,9 +64,9 @@ Student mental health is a global crisis, with factors like academic pressure, s
                                  
 
 4. Top Predictors (Logistic Regression Coefficients)
-diet_quality: -1.462810 - Better diet quality lowers stress, a key protective factor.
-study_hours_per_week: 1.455477 - More study hours increase stress, reflecting workload impact.
-sleep_duration_(hours_per_night): -1.441904 - More sleep reduces stress, a critical health factor.
+- diet_quality: -1.462810 - Better diet quality lowers stress, a key protective factor.
+- study_hours_per_week: 1.455477 - More study hours increase stress, reflecting workload impact.
+- sleep_duration_(hours_per_night): -1.441904 - More sleep reduces stress, a critical health factor.
 
 # Contributor
 Komal - komal202220@gmail.com
