@@ -65,7 +65,7 @@ Student mental health is a global crisis, with factors like academic pressure, s
 - Accuracy: 0.9539473684210527
                                  
                         precision    recall  f1-score   support
-  0                        0.98      0.96      0.97       123
+0                           0.98      0.96      0.97       123
   1                        0.84      0.93      0.89        29
 
   accuracy                                    0.95       152
