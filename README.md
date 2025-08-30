@@ -1,6 +1,6 @@
-## Student Mental Stress Analysis: Insights into Factors and Coping Mechanisms
+# Student Mental Stress Analysis: Insights into Factors and Coping Mechanisms
 
-# Project Overview
+## Project Overview
 This repository contains a comprehensive data analysis project on student mental stress levels and coping mechanisms, using a dataset of ~760 student records from "Student_Mental_Stress_and_Coping_Mechanisms.csv”. The analysis explores key factors influencing mental stress, such as academic performance, sleep, social media usage, family support, and more. It employs exploratory data analysis (EDA), clustering, and predictive modeling to uncover patterns and predict high-stress cases.
 
 Key highlights:
@@ -10,14 +10,14 @@ Key highlights:
 - Real-World Impact: Provides actionable insights for educators, counselors, and policymakers to support student well-being, e.g., promoting exercise and meditation as effective coping strategies.
 This project demonstrates my skills in data wrangling, visualization, machine learning, and deriving business insights—ideal for roles in data analysis, ML engineering, or health analytics. Developed as a personal portfolio project, inspired by growing concerns in student mental health post-pandemic.
 
-# Motivation
+## Motivation
 Student mental health is a global crisis, with factors like academic pressure, social media, and lack of support contributing to high stress levels. This analysis aims to:
 - Identify correlations (e.g., low sleep linked to higher stress).
 - Cluster students into groups (e.g., "High Achievers with Low Support" vs. "Balanced with Strong Coping").
 - Predict high-stress risks for early intervention.
 - Recommend coping mechanisms based on data (e.g., exercise reduces cognitive distortions).
 
-# Key Features & Analyses
+## Key Features & Analyses
 1. Data Cleaning: Handled duplicates, nulls, and grouped genders (e.g., non-binary categories).
 2. Descriptive Statistics: Value counts, distributions, and unique checks for all columns.
 3. Visualization:
@@ -31,13 +31,13 @@ Student mental health is a global crisis, with factors like academic pressure, s
   - High GPA correlates with moderate stress, but low family support amplifies it.
   - Non-binary genders show slightly higher stress variance, warranting targeted support.
  
-# Technologies Used
+## Technologies Used
 - Core Libraries: Pandas (data manipulation), NumPy (arrays), Seaborn & Matplotlib (visualization).
 - Machine Learning: Scikit-learn (StandardScaler, PCA, KMeans, LogisticRegression, train_test_split, ColumnTransformer, Pipeline).
 - Environment: Python 3.10+; Jupyter Notebook for interactive development.
 - Data Source: CSV dataset with features like Age, GPA, Sleep Duration, Stress Levels, Coping Mechanisms.
 
-# Setup & Installation
+## Setup & Installation
 1. Clone the Repository: git clone https://github.com/komal270302/Student-Mental-Stress-Analysis-Insights-into-Factors-and-Coping-Mechanisms.git
                          cd Student-Mental-Stress-Analysis-Insights-into-Factors-and-Coping-Mechanisms
 
@@ -68,7 +68,7 @@ Student mental health is a global crisis, with factors like academic pressure, s
 - study_hours_per_week: 1.455477 - More study hours increase stress, reflecting workload impact.
 - sleep_duration_(hours_per_night): -1.441904 - More sleep reduces stress, a critical health factor.
 
-# Contributor
+## Contributor
 Komal - komal202220@gmail.com
 
 
