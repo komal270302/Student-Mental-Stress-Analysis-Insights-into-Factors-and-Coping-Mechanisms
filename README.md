@@ -60,17 +60,8 @@ Student mental health is a global crisis, with factors like academic pressure, s
 - Insight : Reading and Travelling are top choices, whereas talking to friends is not considered by most of the students.
 
 3. Predictive Model Performance
-- Accuracy: ~95%
-- Classification Report (sample):
 - Accuracy: 0.9539473684210527
                                  
-                        precision    recall  f1-score   support
-0                           0.98      0.96      0.97       123
-  1                        0.84      0.93      0.89        29
-
-  accuracy                                    0.95       152
-  macro avg               0.91      0.95      0.93       152
-weighted avg              0.96      0.95      0.95       152
 
 4. Top Predictors (Logistic Regression Coefficients)
 diet_quality: -1.462810 - Better diet quality lowers stress, a key protective factor.
