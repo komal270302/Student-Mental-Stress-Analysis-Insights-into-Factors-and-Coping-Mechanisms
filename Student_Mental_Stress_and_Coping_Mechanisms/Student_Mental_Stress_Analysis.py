@@ -75,33 +75,6 @@ sns.heatmap(corr_matrix, annot=True, fmt=".2f", cmap="coolwarm", center=0)
 plt.title("Correlation Heatmap of Numeric Features")
 plt.show()
 
-
-# K-Means Clustering with PCA Visualization
-numeric_df = df.select_dtypes(include=['int64', 'float64'])
-scaler = StandardScaler()
-scaled_data = scaler.fit_transform(numeric_df)
-kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
-clusters = kmeans.fit_predict(scaled_data)
-
-# Add cluster labels back to the dataframe
-df['cluster'] = clusters
-pca = PCA(n_components=2)
-pca_result = pca.fit_transform(scaled_data)
-df['pca1'] = pca_result[:,0]
-df['pca2'] = pca_result[:,1]
-plt.figure(figsize=(8,6))
-plt.scatter(df['pca1'], df['pca2'], c=df['cluster'], cmap='viridis', alpha=0.7)
-plt.xlabel('PCA 1')
-plt.ylabel('PCA 2')
-plt.title('KMeans Clusters (PCA Projection)')
-plt.colorbar(label='Cluster')
-plt.show()
-numeric_cols = df.select_dtypes(include=['int64', 'float64']).columns
-cluster_summary = df.groupby('cluster')[numeric_cols].mean()
-print(cluster_summary)
-
-
-
 # Creating the Target Variable
 threshold = df['mental_stress_level'].quantile(0.75)
 df['high_stress'] = (df['mental_stress_level'] > threshold).astype(int)
